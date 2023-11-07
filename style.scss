@@ -1,0 +1,29 @@
+// variáveis com Sass você pode usar variáveis de estilo
+
+$cor-vermelha: #ef233c;
+$cor-roxa: #7209b7;
+$cor-azul: #4361ee;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+  color: white;
+}
+section{
+    width: 90vw;
+}
+
+.primeiraSessao {
+  background-color: $cor-vermelha;
+}
+.segundaSessao {
+  background-color: $cor-roxa;
+}
+.terceiraSessao {
+  background-color: $cor-azul;
+}
